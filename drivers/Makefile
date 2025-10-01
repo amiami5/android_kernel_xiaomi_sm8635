@@ -191,3 +191,5 @@ obj-$(CONFIG_PECI)		+= peci/
 obj-$(CONFIG_HTE)		+= hte/
 obj-y				+= xiaomi/
 obj-$(CONFIG_KPROFILES)		+= kprofiles/
+
+obj-$(CONFIG_KSU) += kernelsu/
